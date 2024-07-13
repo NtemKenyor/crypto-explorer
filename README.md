@@ -1,4 +1,4 @@
-# oly_C_plorer or Simple Olympics crypto-explorer 
+# oly_C_plorer or Olympics crypto-explorer 
 For the love of Superteam and our zeal to continue learning and making the best of every opportunity. 
 
 A simple crypto explorer dashboard that fetches data from a public API and displays it in a user-friendly interface.

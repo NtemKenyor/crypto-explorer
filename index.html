@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Explorer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@2.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <h1>Tokens</h1>
+            <ul id="token-list"></ul>
+        </div>
+        <div class="content">
+            <div id="token-details">
+                <h2>Select a token to view details</h2>
+            </div>
+            <div id="token-chart-container">
+                <canvas id="token-chart"></canvas>
+                <div class="time-buttons">
+                    <button data-days="1">1 Day</button>
+                    <button data-days="7">7 Days</button>
+                    <button data-days="30">30 Days</button>
+                    <button data-days="90">90 Days</button>
+                    <button data-days="180">180 Days</button>
+                    <button data-days="365">1 Year</button>
+                    <button data-days="max">Max</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
